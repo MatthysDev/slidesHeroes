@@ -1,10 +1,8 @@
-![Example of the slide deck in action](./thumbnail3.gif)
-
 # mdx-deck Template
 
 A basic boilerplate to use with [mdx-deck](https://github.com/jxnblk/mdx-deck) with all components and layouts. Different themes and configurations available as feature branches.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/whoisryosuke/mdx-deck-netlify)
+
 
 ## Features
 
