@@ -1,7 +1,7 @@
-import theme from "mdx-deck/themes";
+import { dark } from "mdx-deck/themes";
 
 export default {
-  ...theme,
+  ...dark,
 
   // Customize your presentation theme here.
   //
