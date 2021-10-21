@@ -5,7 +5,16 @@ export { default as theme } from "./theme";
 
 # Gatsby v4
 
-<img src="https://images.ctfassets.net/23aumh6u8s0i/1vxNyK4RaOzRrc5ELJ8rqo/ec2a9b9dab9fb851db2794d80fe0f92d/gatsbyjs" />
+<img
+  src="https://images.ctfassets.net/23aumh6u8s0i/1vxNyK4RaOzRrc5ELJ8rqo/ec2a9b9dab9fb851db2794d80fe0f92d/gatsbyjs"
+  style={{
+    height: "30vh",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    margin: "auto",
+  }}
+/>
 
 ## <https://www.gatsbyjs.com/>
 
@@ -26,34 +35,42 @@ export { default as theme } from "./theme";
 ## Les nouveaux modes de rendu
 
 <ul>
-  <Appear>
-    <li>SSG - static site generation</li>
-    <li>DSG - deferred static generation</li>
-    <li>SSR - server-side rendered</li>
-  </Appear>
+  <li>SSG - static site generation</li>
+  <li>DSG - deferred static generation</li>
+  <li>SSR - server-side rendered</li>
 </ul>
 
 ---
 
-## SSG
+## SSG - static site generation
+
+Les pages sont générées pendant la construction du site
 
 ---
 
-## DSG
+## DSG - deferred static generation
+
+La coeur du site est construit et lorsque le visiteur envoie une requête, le serveur construit la page demandée
 
 ---
 
-## SSR
+## SSR - server-side rendered
+
+Le serveur envoie directement les données au navigateur qui va se charger de créer le contenu
 
 ---
 
-# Procession de recherches parrallèles
+## Procession de recherches parrallèles
+
+Gatsby utilise le processeur de la machine afin de build le site pendant qu'il éxecute les requêtes de données sur un autre coeur du processeur
 
 ---
 
 # Rendu sur le Gatbsy Cloud
 
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--j_2KzyRk--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4r07oymd4scsvtpyvl8l.png" />
+
+export default Split;
 
 ---
 
