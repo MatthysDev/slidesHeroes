@@ -1,6 +1,6 @@
 # Mdx slides template
 
-I make this project with mdx-deck slides to have a template
+I make this project with mdx-deck slides
 
 ## Start the project
 
