@@ -1,7 +1,12 @@
-import { book } from "mdx-deck/themes";
+import { swiss } from "mdx-deck/themes";
 
 export default {
-  ...book,
+  ...swiss,
+  display: "flex",
+  margin: "auto",
+  justifyContent: "center",
+  alignItems: "center",
+  alignContent: "center",
 
   // Customize your presentation theme here.
   //
